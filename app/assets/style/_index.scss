@@ -1,0 +1,43 @@
+.option {
+    h2 {
+        margin-right: 50px;
+        line-height: 33px;
+    }
+    .dropdown-toggle::after {
+        border: 0;
+        content: '';
+    }
+
+}
+.courses{
+    .dropdown-toggle::after {
+            border: 0;
+            content: '';
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    i {
+        font-size: 24px;
+    }
+}
+.tab-pane {
+    .card-header {
+        background-color: ($gray-100);
+    }
+}
+
+.detailed {
+    .dropdown-toggle::after {
+        display: none;
+    }
+}
+
+.appendix {
+    width: 176px;
+    height: 40px;
+    border-radius: 2px;
+    border-color: ($gray-400);
+    background-color: ($gray-100);
+}

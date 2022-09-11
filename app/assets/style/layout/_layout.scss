@@ -1,0 +1,43 @@
+.index__h1 {
+  color:#00cc99;
+  font-size: 20px;
+  font-weight: 400;
+}
+.fw-900{
+  font-weight: 900;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.header {
+  position: fixed;
+  min-width: 296px;
+  height: 100vh;
+}
+.content {
+  margin-left: 296px;
+}
+.nav-link {
+  font-family: 'Lato';
+  font-weight: 700;
+  color: $dark;
+  border-left: 4px solid transparent;
+  line-height: 2;
+  padding-left: 2rem;
+}
+.user {
+      width: 40px;
+      height: 40px;
+      background: url(../images/andychen.jpeg) center no-repeat;
+      background-size: cover;
+}
+.nav {
+    height: 100vh;
+    a:hover{
+    color: $green !important;
+    border-color: $green !important;
+  }
+}
+.fs-7 {
+  font-size: $font-size-sm;
+}
